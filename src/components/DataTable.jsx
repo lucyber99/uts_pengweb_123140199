@@ -6,7 +6,7 @@ const DataTable = ({ facts, onRefresh, loading, animalType }) => {
       <div className="table-header">
         <h2>{animalType === 'dog' ? 'Dog' : 'Cat'} Facts</h2>
         <button onClick={onRefresh} className="refresh-button" disabled={loading}>
-          {loading ? '⏳ Loading...' : '🔄 Refresh Facts'}
+          {loading ? '⏳ Loading...' : 'Refresh Facts'}
         </button>
       </div>
       <div className="table-wrapper">

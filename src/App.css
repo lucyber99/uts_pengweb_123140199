@@ -115,7 +115,7 @@ body {
   font-size: 1rem;
   border: 2px solid #e5e7eb;
   border-radius: 8px;
-  background: white;
+  background: #667eea;
   cursor: pointer;
   transition: border-color 0.3s ease;
 }
@@ -169,7 +169,7 @@ body {
 
 /* Detail Card */
 .detail-card {
-  background: white;
+  background: rgb(95, 117, 216);
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

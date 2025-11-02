@@ -10,13 +10,13 @@ const Header = ({ activeTab, onTabChange }) => {
             className={`nav-tab ${activeTab === 'dog' ? 'active' : ''}`}
             onClick={() => onTabChange('dog')}
           >
-            🐕 Dogs
+            Dogs
           </button>
           <button
             className={`nav-tab ${activeTab === 'cat' ? 'active' : ''}`}
             onClick={() => onTabChange('cat')}
           >
-            🐱 Cats
+            Cats
           </button>
         </nav>
       </div>

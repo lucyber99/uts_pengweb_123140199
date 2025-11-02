@@ -216,7 +216,7 @@ function App() {
       </main>
 
       <footer className="footer">
-        <p>Made with ❤️ using Dog CEO API & Cat Facts API</p>
+        <p>Made in Indonesia | Revolusi (123140199) </p>
       </footer>
     </div>
   );
